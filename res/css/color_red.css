@@ -1,0 +1,213 @@
+/*
+* Heading style colors
+*/
+
+.title-underline-base-color {
+    border-color: #f4f0f0;
+}
+.title-underline-thick-base-color {
+    border-color: #f4f0f0;
+}
+.title-sideline-base-color:before {
+    background-color: #f4f0f0;
+}
+.title-strikethrough-base-color:before {
+    background-color: #f4f0f0;
+}
+
+
+/*
+* Text color
+*/
+
+.text-base-color {
+    font-family: 'Times New Roman', Times, serif;
+    color: #f4f0f0 !important;
+    text-shadow: -3px -3px 0 #51deeb;
+    margin-top:50px
+}
+
+
+
+.disclaimer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:18px;
+}
+
+
+
+/*
+* Text color (on hover)
+*/
+
+.text-hover-base-color:hover,
+.text-hover-base-color:focus {
+    font-family: Georgia, serif;
+    color: #f4f0f0 !important;
+}
+
+/*
+* Background color
+*/
+
+.bg-base-color {
+    background-color: #f4f0f0 !important;
+}
+
+
+/*
+* Background color (on hover)
+*/
+
+.bg-hover-base-color:hover {
+    background-color: #40d3e1 !important;
+}
+
+
+/*
+* Border color
+*/
+
+.border-base-color {
+    border-color: #f4f0f0 !important;
+}
+
+
+/*
+* Button colors
+*/
+
+.btn.btn-base-color {
+    background-color: #40d3e1;
+}
+.btn.btn-base-color.btn-hover-transparent:hover {
+    border-color: #f4f0f0;
+    color: #40d3e1;
+}
+.btn.btn-outline-base-color {
+    border-color: #40d3e1;
+    color: #f4f0f0;
+}
+.btn.btn-outline-base-color:hover,
+.btn.btn-outline-base-color:focus {
+    background-color: #40d3e1;
+}
+.btn.btn-outline-base-color.btn-hover-transparent:hover,
+.btn.btn-outline-base-color.btn-hover-transparent:focus {
+    color: #f4f0f0;
+}
+
+
+/*
+* Preloader color
+*/
+
+.pace .pace-progress {
+    background-color: #0000;
+}
+
+
+/*
+* Nav tabs (Section - Schedule)
+*/
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    background-color: #40d3e1 !important;
+}
+
+
+/*
+* Nav stacked (Section - FAQ)
+*/
+
+.nav.nav-pills.nav-stacked > li.active > a,
+.nav.nav-pills.nav-stacked > li.active > a:hover,
+.nav.nav-pills.nav-stacked > li.active > a:focus {
+    background-color: #40d3e1;
+    color: #ffffff;
+}
+
+
+/*
+* Accordions (Section - FAQ)
+*/
+
+.panel-group .panel.active .panel-heading {
+    background-color: #40d3e1;
+}
+
+
+/*
+* Countdown
+*/
+
+.countdown .clock-item {
+    background-color: #f4f0f0;
+}
+
+
+/*
+* Pricing (Section - Ticket)
+*/
+
+.pricing ul > li.check-mark:before {
+    background-color: #f4f0f0;
+}
+
+
+/*
+* Timeline (Section - Schedule)
+*/
+
+.timeline-item.highlight:before {
+    background-color: #f4f0f0;
+    border: #40d3e1;
+}
+
+@media screen  and (max-width:480px){
+    
+    .text-base-color{
+        font-family: 'Times New Roman', Times, serif;
+        color: #ffffff !important;
+        text-shadow:none;
+        font-size: 25px!important;
+        line-height: 24px!important;
+    }
+    .font-family-alt {
+        font-family: 'Times New Roman', Times, serif;
+        color: #ffffff !important;
+        /* text-shadow: -3px -3px 0 #; */
+        font-size: 20px!important;
+        line-height: 24px!important;
+    }
+    .animate-charcter{
+        font-size: 50px!important;
+        line-height: 54px!important;
+    }
+    #demo p{
+        font-size: 15px;
+    }
+    #myVideo{
+        width:290%;
+    }
+    
+    #home-bg-slideshow{
+        padding-bottom: 10px;
+    }
+    .disclaimer{
+        font-size: 10px;
+        line-height: 170%;
+    }
+    .nav{
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    
+    
+}
+
+
+
